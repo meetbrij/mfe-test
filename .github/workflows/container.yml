@@ -27,3 +27,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: ap-south-1
           AWS_REGION: ap-south-1
+          AWS_EC2_METADATA_DISABLED=true
